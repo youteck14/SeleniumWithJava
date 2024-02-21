@@ -31,6 +31,6 @@ public class GoogleTest {
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+        driver.close();
     }
 }
